@@ -28,7 +28,7 @@
 
 import Foundation
 
-let apiHostname = "https://377f-175-141-172-89.ap.ngrok.io"
+let apiHostname = "https://258a-175-141-172-89.ap.ngrok.io"
 
 struct ResourceRequest<ResourceType> where ResourceType: Codable {
   let baseURL = "\(apiHostname)/api/"
