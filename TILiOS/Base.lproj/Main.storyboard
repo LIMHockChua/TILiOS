@@ -87,7 +87,7 @@
             </objects>
             <point key="canvasLocation" x="1282" y="-769"/>
         </scene>
-        <!--Create Acronym-->
+        <!--Create Room-->
         <scene sceneID="aV2-9A-6va">
             <objects>
                 <tableViewController id="vSF-0N-Jro" customClass="CreateAcronymTableViewController" customModule="TILiOS" customModuleProvider="target" sceneMemberID="viewController">
@@ -99,14 +99,14 @@
                             <tableViewSection headerTitle="Acronym" id="X93-wa-rzb">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" id="uJV-V0-rCH">
-                                        <rect key="frame" x="0.0" y="49" width="414" height="33.666667938232422"/>
+                                        <rect key="frame" x="0.0" y="49" width="414" height="33.333332061767578"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uJV-V0-rCH" id="fZr-EY-qhG">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="33.666667938232422"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="33.333332061767578"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Short version of the acronym" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Yy-6S-PrT">
-                                                    <rect key="frame" x="16" y="7.0000000000000018" width="378" height="19.666666666666671"/>
+                                                    <rect key="frame" x="16" y="6.9999999999999982" width="378" height="19.333333333333329"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no"/>
                                                 </textField>
@@ -124,14 +124,14 @@
                             <tableViewSection headerTitle="Meaning" id="qPG-1p-7kJ">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" id="qON-Nl-4vc">
-                                        <rect key="frame" x="0.0" y="132.33333396911621" width="414" height="33.666667938232422"/>
+                                        <rect key="frame" x="0.0" y="131.99999809265137" width="414" height="33.333332061767578"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qON-Nl-4vc" id="365-dg-TW5">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="33.666667938232422"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="33.333332061767578"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Meaning of the acronym" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LM7-Jv-qh1">
-                                                    <rect key="frame" x="16" y="7.0000000000000018" width="378" height="19.666666666666671"/>
+                                                    <rect key="frame" x="16" y="6.9999999999999982" width="378" height="19.333333333333329"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
                                                 </textField>
@@ -152,7 +152,7 @@
                             <outlet property="delegate" destination="vSF-0N-Jro" id="Dvq-bU-tJn"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Create Acronym" largeTitleDisplayMode="never" id="J1r-Kd-OkL">
+                    <navigationItem key="navigationItem" title="Create Room" largeTitleDisplayMode="never" id="J1r-Kd-OkL">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="UgN-5Q-217">
                             <connections>
                                 <action selector="cancel:" destination="vSF-0N-Jro" id="GtA-eS-E5d"/>
@@ -302,14 +302,14 @@
                             <tableViewSection headerTitle="Name" id="MQk-Nm-91k">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" id="5vH-k8-AGf">
-                                        <rect key="frame" x="0.0" y="49" width="414" height="33"/>
+                                        <rect key="frame" x="0.0" y="49" width="414" height="33.333332061767578"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5vH-k8-AGf" id="h7b-XG-9rg">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="33"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="33.333332061767578"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="User's name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rfE-of-S0X">
-                                                    <rect key="frame" x="16" y="7" width="378" height="19"/>
+                                                    <rect key="frame" x="16" y="6.9999999999999982" width="378" height="19.333333333333329"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" textContentType="name"/>
                                                 </textField>
@@ -327,14 +327,14 @@
                             <tableViewSection headerTitle="Username" id="VvL-7D-Urr">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" id="zQ3-2u-PUI">
-                                        <rect key="frame" x="0.0" y="131.66666603088379" width="414" height="33"/>
+                                        <rect key="frame" x="0.0" y="131.99999809265137" width="414" height="33.333332061767578"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zQ3-2u-PUI" id="1Tp-4v-9UV">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="33"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="33.333332061767578"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="User's username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dxJ-gK-0SQ">
-                                                    <rect key="frame" x="16" y="7" width="378" height="19"/>
+                                                    <rect key="frame" x="16" y="6.9999999999999982" width="378" height="19.333333333333329"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" textContentType="username"/>
                                                 </textField>
@@ -352,14 +352,14 @@
                             <tableViewSection headerTitle="Password" id="rhD-dZ-kN4">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" id="Pjy-d4-6rJ">
-                                        <rect key="frame" x="0.0" y="214.33333206176758" width="414" height="33"/>
+                                        <rect key="frame" x="0.0" y="214.99999618530273" width="414" height="33.333332061767578"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Pjy-d4-6rJ" id="Y6R-es-juE">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="33"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="33.333332061767578"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="User's password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FLL-vw-aDp">
-                                                    <rect key="frame" x="16" y="7" width="378" height="19"/>
+                                                    <rect key="frame" x="16" y="6.9999999999999982" width="378" height="19.333333333333329"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" textContentType="password"/>
                                                 </textField>
@@ -470,7 +470,7 @@
             </objects>
             <point key="canvasLocation" x="1281" y="821"/>
         </scene>
-        <!--Create Category-->
+        <!--Create Hotel-->
         <scene sceneID="JOO-j9-lC4">
             <objects>
                 <tableViewController id="IK1-GL-VHU" customClass="CreateCategoryTableViewController" customModule="TILiOS" customModuleProvider="target" sceneMemberID="viewController">
@@ -482,14 +482,14 @@
                             <tableViewSection headerTitle="Name" id="ah8-6c-5oO">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" id="dFm-LN-yPs">
-                                        <rect key="frame" x="0.0" y="49" width="414" height="33.333332061767578"/>
+                                        <rect key="frame" x="0.0" y="49" width="414" height="33"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dFm-LN-yPs" id="iaL-TT-40V">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="33.333332061767578"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="33"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Category Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pL1-2k-G24">
-                                                    <rect key="frame" x="16" y="6.9999999999999982" width="378" height="19.333333333333329"/>
+                                                    <rect key="frame" x="16" y="7" width="378" height="19"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" textContentType="name"/>
                                                 </textField>
@@ -510,7 +510,7 @@
                             <outlet property="delegate" destination="IK1-GL-VHU" id="LgP-zY-A7F"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Create Category" largeTitleDisplayMode="never" id="U5W-dh-pDF">
+                    <navigationItem key="navigationItem" title="Create Hotel" largeTitleDisplayMode="never" id="U5W-dh-pDF">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="ei8-Qe-Ux2">
                             <connections>
                                 <action selector="cancel:" destination="IK1-GL-VHU" id="kOq-YJ-XKr"/>
